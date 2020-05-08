@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Drake';
+    src: url(/WithMyWoes.ttf);
+    src: url(/WithMyWoes.ttf) format("embedded-opentype"), url(/WithMyWoes.ttf) format("woff2"), url(/WithMyWoes.ttf) format("woff"), url(/WithMyWoes.ttf) format("svg");
+    font-weight: normal;
+    font-style:normal
+}
+
+html, body {
+    min-height: 100%;
+    height:100%
+}
+
+body {
+    font-family: "Drake";
+    font-size: 96px;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content:center
+}
+
+::selection {
+    background: black;
+    color:white
+}
+
+::-moz-selection {
+    background: black;
+    color:white
+}
+
+::-webkit-input-placeholder {
+    color:black
+}
+
+:-moz-placeholder {
+    color:black
+}
+
+::-moz-placeholder {
+    color:black
+}
+
+:-ms-input-placeholder {
+    color:black
+}
+
+#app {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 700px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 700px;
+    -ms-flex: 0 0 700px;
+    flex:0 0 700px
+}
+
+#cover {
+    width: 700px;
+    height: 700px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow:column nowrap
+}
+
+#test {
+    font-size: 96px;
+    line-height: 1.25;
+    width: 700px;
+    opacity: 0.5;
+    position: absolute;
+    white-space: pre-line;
+    top: 0;
+    visibility: hidden;
+    z-index:0
+}
+
+textarea {
+    font-family: inherit;
+    text-transform: lowercase;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 600px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 600px;
+    -ms-flex: 0 0 600px;
+    flex: 0 0 600px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    resize: none;
+    font-size: 96px;
+    line-height: 1.20;
+    outline: none;
+    overflow: hidden;
+    -webkit-appearance:none
+}
+
+.bottom {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 100px;
+    -ms-flex: 0 0 100px;
+    flex: 0 0 100px;
+    position: relative;
+    text-align: center;
+}
+
+.bottom .prayer {
+    width: 100px;
+    padding-top: 2px;
+}
+
+.by {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.by a {
+    color: rgb(133, 132, 132);
+    text-decoration:none
+}
+
+.by a:hover {
+    color: black
+}
+
+.fun {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    padding: 8px;
+    color:rgb(0, 0, 0);
+}
+
+/* .fun {
+    color: rgb(133, 132, 132);
+    text-decoration:none
+}
+
+.fun :hover {
+    color: black
+} */
