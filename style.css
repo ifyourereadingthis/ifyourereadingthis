@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Drake';
-    src: url(WithMyWoes.ttf);
-    src: url(WithMyWoes.ttf) format("embedded-opentype"), url(WithMyWoes.ttf) format("woff2"), url(WithMyWoes.ttf) format("woff"), url(WithMyWoes.ttf) format("svg");
+    src: url(./WithMyWoes.ttf);
+    src: url(./WithMyWoes.ttf) format("embedded-opentype"), url(./WithMyWoes.ttf) format("woff2"), url(./WithMyWoes.ttf) format("woff"), url(./WithMyWoes.ttf) format("svg");
     font-weight: normal;
     font-style:normal
 }
